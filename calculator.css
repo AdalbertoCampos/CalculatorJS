@@ -41,18 +41,12 @@ form {
 
 @media (max-width: 600px) {
     #display {
-        width: 400px;
+        width: 600px;
+        position: absolute;
+        bottom: 0;
     }
-}
-
-@media (max-width: 416px) {
-    #display {
-        width: 300px;
-    }
-}
-
-@media (max-width: 318px) {
-    #display {
-        width: 250px;
+    form {
+        display: flex;
+        justify-content: space-between;
     }
 }
